@@ -5,8 +5,18 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 tindaro.tornabene@gmail.com
 
 ## Development server
+npm install
+[Gentics Mesh README](https://github.com/gentics/mesh/blob/master/README.md)
+
+wget https://maven.gentics.com/maven2/com/gentics/mesh/mesh-demo/0.21.4/mesh-demo-0.21.4.jar
+
+javar -jar mesh-demo-0.21.4.jar -httpPort 8071
+
+ng serve --proxy-config proxy.conf.js  --host 0.0.0.0 --port 4200
+proxy getmash api
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
 
 ## Code scaffolding
 

@@ -7,7 +7,11 @@ import { AccordionModule } from 'ngx-bootstrap';
 import { CarouselModule } from 'ngx-bootstrap';
 import { TabsModule } from 'ngx-bootstrap';
 import { BsDatepickerModule } from 'ngx-bootstrap';
+ 
+import { ToastNotificationModule } from 'patternfly-ng';
+import { DonutChartModule } from 'patternfly-ng';
 
+import { SparklineChartModule } from 'patternfly-ng';
 
 
 // NGX Bootstrap
@@ -33,6 +37,9 @@ import { WelcomeScreenComponent } from './welcome-screen/welcome-screen.componen
     WelcomeScreenComponent
   ],
   imports: [
+  DonutChartModule,
+  SparklineChartModule,
+  ToastNotificationModule,
     BsDatepickerModule.forRoot(),
     TabsModule.forRoot(),
     AccordionModule.forRoot(),

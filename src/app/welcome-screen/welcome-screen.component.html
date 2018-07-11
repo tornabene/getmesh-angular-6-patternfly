@@ -15,8 +15,29 @@
     </div>
 
     <div class="col-sm-9">
-      <h1>Gentics Mesh Demo Application</h1>
+      <h1>Gentics Mesh Angular 6 Demo Application</h1>
     </div>
+
+
+
+ <div class="row">
+    <div class="col-sm-12">
+      <div class="form-group">
+        <pfng-sparkline-chart [chartData]="chartData" [config]="config"></pfng-sparkline-chart>
+      </div>
+    </div>
+  </div>
+
+
+  <pfng-toast-notification
+            header="header"
+       message="message"
+         
+            primaryAction="primaryAction"
+            showClose="true"
+            type="success"
+           >
+        </pfng-toast-notification>
 
 
     <accordion>

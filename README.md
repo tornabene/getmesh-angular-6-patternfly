@@ -12,6 +12,7 @@ wget https://maven.gentics.com/maven2/com/gentics/mesh/mesh-demo/0.21.4/mesh-dem
 java   -jar mesh-demo-0.21.4.jar -httpPort 8070
 
 ng serve --proxy-config proxy.conf.js  --host 0.0.0.0 --port 4200
+ng serve --proxy-config proxy.conf.cloud.js  --host 0.0.0.0 --port 4200
 proxy getmash api
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

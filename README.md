@@ -9,8 +9,7 @@ npm install
 [Gentics Mesh README](https://github.com/gentics/mesh/blob/master/README.md)
 
 wget https://maven.gentics.com/maven2/com/gentics/mesh/mesh-demo/0.21.4/mesh-demo-0.21.4.jar
-
-javar -jar mesh-demo-0.21.4.jar -httpPort 8071
+javar -jar mesh-demo-0.21.4.jar -httpPort 8070
 
 ng serve --proxy-config proxy.conf.js  --host 0.0.0.0 --port 4200
 proxy getmash api
